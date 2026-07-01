@@ -104,8 +104,8 @@ def main():
             calculo_suplementos()
             
         print("Todos los usuarios han sido evaluados con exito")
-        continuar = input("¿Desea evaluar otra tanda? si/no: ").lower()
-        if continuar != "si":
+        continuar = input("¿Desea evaluar otra tanda? s/n: ").lower()
+        if continuar != "s":
             break
 
 main()
